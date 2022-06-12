@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="jugones">
+		<complexType>
+			<sequence>
+				<element name="plataformas">
+					<complexType>
+						<sequence>
+							<element name="plataforma" maxOccurs="unbounded">
+								<complexType>
+									<sequence>
+										<element name="nombre">
+											<simpleType> 
+												<restriction base="string">
+													<whiteSpace value="collapse"/>
+													<maxLength value="50" /> 
+												</restriction>
+											</simpleType>
+										</element>
+										<element name="compania">
+											<simpleType> 
+												<restriction base="string">
+													<whiteSpace value="collapse"/>
+													<maxLength value="50" /> 
+												</restriction>
+											</simpleType>
+										</element>
+										<element name="generacion">
+											<simpleType> 
+												<restriction base="string">
+													<whiteSpace value="collapse"/>
+													<maxLength value="10" /> 
+												</restriction>
+											</simpleType>
+										</element>
+										<element name="lanzamiento">
+											<simpleType> 
+												<restriction base="integer">
+													<minInclusive value="1972"/>
+													<maxInclusive value="1999"/>
+												</restriction>
+											</simpleType>
+										</element>
+										<element name="cpu" type="string"/>
+										<element name="gpu" type="string" minOccurs="0"/>
+										<element name="juegoMasVendido" type="string" minOccurs="0"/>
+										<element name="portada" type="string" minOccurs="0"/>
+										<element name="unidadesVendidas" type="integer"/>
+										<element name="descripcion">
+											<complexType mixed="true"> 
+												<choice minOccurs="0" maxOccurs="unbounded"> <!--No importa orden ni numero-->
+													<element name="consola" type="string"/>
+													<element name="juego" type="string"/>
+												</choice>
+											</complexType>
+										</element>
+										
+									</sequence>
+									<attribute name="codigo" use="required">
+										<simpleType> 
+											<restriction base="string">
+												<whiteSpace value="collapse"/>
+												<pattern value="[A-Z0-9]{3,4}"/>
+											</restriction>
+										</simpleType>
+									</attribute>
+									<attribute name="tipo" use="required">
+										<simpleType> 
+											<restriction base="string">
+												<enumeration value="sobremesa"/> 
+												<enumeration value="portatil"/> 
+												<enumeration value="computadora"/>
+											</restriction>
+										</simpleType>
+									</attribute>
+									<attribute name="soporteJuego" use="optional">
+										<simpleType> 
+											<restriction base="string">
+												<whiteSpace value="collapse"/>
+											</restriction>
+										</simpleType>
+									</attribute>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+  </element>
+</schema>

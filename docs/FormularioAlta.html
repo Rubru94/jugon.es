@@ -1,0 +1,239 @@
+<!DOCTYPE html >
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulario de alta</title>
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee" type="text/css">
+		
+		<link rel="stylesheet" href="estilos/estilosIndice.css" type="text/css">
+		
+	</head>
+	
+	<body>
+	
+		<h1 style="text-align:center"> Formulario de alta</h1>
+	
+		<article>
+			
+			<fieldset>
+			
+			
+				<form action="envioCorrecto.html" method="post">
+				
+				<table border="0" cellspacing="20">
+					
+					<tr>
+						<td> 
+						
+							<label class="seccion"> &nbsp;Datos de Usuario * </label> <br><br>
+							
+							<label>
+								Nombre:<br>
+								<input type="text" name="nombre" size="20" placeholder="Introduzca su nombre" autocomplete="on" required="required"> 
+								<br>
+							</label>
+							
+						</td>
+							
+						<td>
+							
+							<label>
+							<br><br>
+								Primer apellido: <br>
+								<input type="text" name="primer apellido" size="25" placeholder="Introduzca su primer apellido" autocomplete="on" required="required">
+								<br>								
+								
+							</label>
+
+						</td>
+						
+						<td>
+						
+							<label>
+								<br><br>
+								Segundo apellido:<br>
+								<input type="text" name="segundo apellido" size="25" placeholder="Introduzca su segundo apellido" autocomplete="on" required="required"> 
+								
+								
+							</label>
+							
+						</td>
+						
+					</tr>
+					
+					<tr>
+						
+						<td>
+						
+							<label>
+								
+									Usuario:<br>
+								<input type="text" name="usuario" size="25" placeholder="Introduzca su nombre de usuario" autocomplete="on" required="required"> 
+								<br>
+								
+							</label>
+						
+						</td>
+						
+						<td>
+						
+							<label>
+								
+								Contraseña:<br>
+								<input type="password" name="pass" size="25" placeholder="Introduzca su contraseña" autocomplete="on" required="required"> 
+								<br>
+								
+							</label>
+							
+						</td>
+						
+						<td>
+						
+							<label>
+								<br>
+								<input type="password" name="pass" size="25" placeholder="Vuelva a introducir su contraseña" autocomplete="on" required="required"> 
+								<br>
+								
+							</label>
+						
+						</td>
+						
+						
+					</tr>					
+					
+					<tr>
+					
+						<td>
+							<br>
+							<label class="seccion"> &nbsp;Dirección * </label> <br><br>
+							
+							<label>
+							
+								Calle, número, piso y puerta: <br>
+								<input type="text" name="direccion" size="20" placeholder="Introduzca su dirección" autocomplete="on" required="required"> 
+								<br>
+								
+							</label>
+							
+						</td>
+						
+						<td>
+						
+							<label>
+								<br><br><br>
+								Código postal: <br>
+								<input type="text" name="codigo postal" size="20" placeholder="Introduzca su código postal" autocomplete="on" required="required"> 
+								<br>
+								
+							</label>
+							
+						</td>
+						
+						<td>
+						
+							<label>
+								<br><br><br>
+								Municipio:<br>
+								<input type="text" name="municipio" size="20" placeholder="Introduzca su municipio" autocomplete="on" required="required"> 
+								<br>
+								
+							</label>
+							
+						</td>
+					
+					</tr>
+					
+					<tr>
+					
+						<td>
+							<label>
+							
+								Provincia:<br>
+								<input type="text" name="provincia" size="20" placeholder="Introduzca su provincia" autocomplete="on" required="required"> 
+								<br>
+								
+							</label>
+						</td>
+						
+						<td>
+							<label>
+							
+								País:<br>
+								<input type="text" name="pais" size="20" placeholder="Introduzca su país" autocomplete="on" required="required"> 
+								
+								
+							</label>
+						</td>
+						
+						<td>
+							
+						</td>
+					
+					</tr>
+					
+					<tr>
+						
+						<td>
+							<br>
+							<label class="seccion"> &nbsp;E-mail </label> <br><br>
+							
+							<label>
+								Correo:<br>
+								<input type="text" name="email" size="40" placeholder="Introduzca su email" autocomplete="on">
+
+							</label>
+							
+							<br><br> ¿Desea recibir noticias? <br><br>
+							
+							<label> Sí <input type="radio" name="noticias"></label>
+								
+							<label> &nbsp;&nbsp;&nbsp;No <input type="radio" name="noticias" checked="checked"></label>
+							
+						</td>
+						
+						<td>
+							
+							<label class="seccion"> &nbsp;Teléfono * </label> <br><br>
+							
+							<label>
+							
+								Fijo:<br>
+								<input type="text" name="telefono" size="20" placeholder="Introduzca su teléfono fijo" autocomplete="on" required="required" maxlength="9" pattern="[0-9]{9}"> 
+								
+							</label>
+							
+							<br><br><br>						
+							<input class="tecla" type="submit" value="Enviar Datos"/>
+
+					
+						</td>
+						
+						<td>
+							<label>
+							<br><br>
+								Móvil:<br>
+								<input type="text" name="movil" size="20" placeholder="Introduzca su teléfono movil" autocomplete="on" required="required" maxlength="9" pattern="[0-9]{9}"> 
+	
+							</label>
+							
+							<br><br><br>
+							<input class="tecla" type="reset" value="Borrar datos"/>
+						</td>
+					
+					</tr>
+					
+					
+					
+				</table>	
+
+			</form>
+		
+		
+			</fieldset>
+		
+		</article>
+	
+	</body>
+</html>

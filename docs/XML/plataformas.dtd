@@ -1,0 +1,19 @@
+
+	<!ELEMENT jugones (plataformas)>	
+	<!ELEMENT plataformas (plataforma+)>
+	<!ELEMENT plataforma (nombre,compania,generacion,lanzamiento,cpu,gpu?,juegoMasVendido?,portada?,unidadesVendidas,descripcion)>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ELEMENT compania (#PCDATA)>
+	<!ELEMENT generacion (#PCDATA)>
+	<!ELEMENT lanzamiento (#PCDATA)>
+	<!ELEMENT cpu (#PCDATA)>
+	<!ELEMENT gpu (#PCDATA)>
+	<!ELEMENT juegoMasVendido (#PCDATA)>
+	<!ELEMENT portada (#PCDATA)>
+	<!ELEMENT unidadesVendidas (#PCDATA)>
+	<!ELEMENT descripcion (#PCDATA|juego|consola)*>
+	<!ATTLIST plataforma codigo ID #REQUIRED
+							 tipo CDATA #REQUIRED
+							 soporteJuego CDATA #REQUIRED>
+	<!ELEMENT consola (#PCDATA)>
+	<!ELEMENT juego (#PCDATA)>

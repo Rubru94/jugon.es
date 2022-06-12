@@ -1,0 +1,75 @@
+			
+			
+			body{text-align:justify;
+				 background-image:url("../Imagenes/controlesVideojuegos.jpg");
+				}
+
+			#base{text-align:justify;
+				  width:940px;
+				  font: bold 120% consolas;
+				  color:white;
+				  text-shadow:2px 2px black;
+				 }
+			   
+			   
+			h1{text-align:center;
+			   font: 200% Bungee, cursive;
+			   color:white;
+			   border-style:solid;
+			   outline-style:double;
+			   background-color:rgba(50,150,150,0.6);
+			  }
+			  
+			article{background-color:rgba(100,100,100,0.9); /*Texto visible y fondo transaparente*/
+					border-radius:10px;
+					margin-top:1em;
+					clear:both; /*Evitamos que se superpongan <articles>*/
+					padding-top:2em;
+					padding-bottom:2em;
+				   }
+			 
+			   
+					 
+			a:link{font-weight: bold; 
+			       color: #08F703;
+				   text-decoration: none;
+				  }
+				  
+			a:visited {color: yellow;
+					  }
+					  
+				
+			a:active{color: fuchsia
+					}
+					
+			fieldset{margin:1em;
+					 border:solid;
+					 border-width:5px;
+					 border-radius:5px;
+					}
+					
+			form{font: bold 105% arial;
+				 color:white;
+				 text-shadow:2px 2px black;
+				 padding:1em;
+				}
+				
+			.seccion{background-color:rgba(160,20,20,0.9);
+					 border-radius:3px;
+					 border:solid;
+					 border-color:black;
+					 font: bold 115% arial;
+					}
+					
+			.tecla{box-shadow:2px 2px black;
+				   font: bold 90% arial;
+				   background-color:white;
+				   border:solid;
+				   border-radius:4px;
+				 }
+		
+			.tecla:hover{background-color:lightgreen;
+						 cursor:pointer; /* PARA TODOS LOS NAVEGADORES EL CURSOR*/
+						 cursor:hand;
+						}	 
+				 

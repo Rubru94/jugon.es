@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="plataformas3.xsl"?>
+
+<jugones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="plataformas.xsd">
+
+	<plataformas>
+		<plataforma codigo="MAOD" tipo="sobremesa" soporteJuego="cartucho">
+			<nombre>Magnavox Odyssey</nombre>
+			<compania>Magnavox</compania>
+			<generacion>Primera</generacion>
+			<lanzamiento>1972</lanzamiento>
+			<cpu>Ninguno. Constaba de transistores, resistencias y condensadores.</cpu>
+			<unidadesVendidas>350000</unidadesVendidas>
+			<descripcion>
+				Comercializada por la filial de Philips en Estados Unidos, la 
+				<consola>Magnavox Odyssey</consola> es la primera videoconsola de la historia, 
+				y fue desarrollada por Ralph Baer (apodado «el padre de 
+				los videojuegos»). Únicamente dibujaba un punto móvil y 
+				barras verticales en la pantalla, por lo que era necesario 
+				jugar con plantillas en el televisor. El lanzamiento de la 
+				<consola>Odyssey</consola> generó en todo el mundo un caso severo de la 
+				“locura de <juego>Pong</juego>”, y compañías por todo el mundo comenzaron 
+				a desarrollar sus propias máquinas.
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="AT26" tipo="sobremesa" soporteJuego="cartucho casete">
+			<nombre>Atari 2600</nombre>
+			<compania>Atari</compania>
+			<generacion>Segunda</generacion>
+			<lanzamiento>1977</lanzamiento>
+			<cpu>8-bit MOS Technology 6507</cpu>
+			<juegoMasVendido>Pac-Man</juegoMasVendido>
+			<portada>1.- PacMan.jpg</portada>
+			<unidadesVendidas>30000000</unidadesVendidas>
+			<descripcion>
+				Todo un éxito en ventas que impulsó a Atari a la fama e hizo
+				popular los cartuchos intercambiables. Con sólo 128 bytes de 
+				memoria RAM, sacó al mercado juegos como <juego>Pac-man</juego>, 
+				<juego>Space Invaders</juego>,<juego>Asteroids</juego>,
+				<juego>Donkey Kong</juego>, o <juego>Mario Bros</juego>. 
+				Se vendía acompañada de 2 joysticks, 2 controles tipo paddle 
+				y el juego <juego>Combat</juego> desde 1977 hasta 1983. 
+				La programación de juegos no cesó hasta el año 1989.
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="GAW" tipo="portatil" soporteJuego="juego integrado">
+			<nombre>Game &amp; Watch</nombre>
+			<compania>Nintendo</compania>
+			<generacion>Segunda</generacion>
+			<lanzamiento>1981</lanzamiento>
+			<cpu>Calculadora</cpu>
+			<juegoMasVendido>Donkey Kong</juegoMasVendido>
+			<portada>2.- DonkeyKong.gif</portada>
+			<unidadesVendidas>40000000</unidadesVendidas>
+			<descripcion>
+				La serie <consola>Game &amp; Watch</consola> era una línea de 
+				aproximadamente 59 juegos electrónicos portátiles que consistían
+				de un solo juego que se podía jugar en una o dos pantallas LCD, 
+				además de ser un reloj y alarma. Algunos de los títulos del formato 
+				<consola>Game &amp; Watch</consola> fueron <juego>Pinball</juego>, 
+				<juego>Donkey Kong</juego>, <juego>The Legend of Zelda</juego>, 
+				<juego>Mario Bros</juego>, y <juego>Ballon Fight</juego>.
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="ZXSP" tipo="computadora" soporteJuego="cartucho casete">
+			<nombre>ZX Spectrum</nombre>
+			<compania>Sinclair</compania>
+			<generacion>Segunda</generacion>
+			<lanzamiento>1982</lanzamiento>
+			<cpu>8 bits Zilog Z80A @ 4 MHz</cpu>
+			
+			<unidadesVendidas>6000000</unidadesVendidas>
+			<descripcion>
+				Se trata de uno de los ordenadores de 8 bits más populares de los 
+				años 80 (sobretodo en Europa). Su diseño se optimizó mucho, 
+				exprimiendo sus escasos recursos (respecto a la competencia). 
+				Era una máquina asequible que acercó la microinformática a 
+				muchos hogares. Tuvo juegos tan famosos como <juego>R-Type</juego> 
+				y <juego>Renegade</juego>.
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="CO64" tipo="computadora" soporteJuego="cartucho casete">
+			<nombre>Commodore 64</nombre>
+			<compania>Commodore International</compania>
+			<generacion>Segunda</generacion>
+			<lanzamiento>1982</lanzamiento>
+			<cpu>MOS 6510</cpu>
+			
+			<unidadesVendidas>12500000</unidadesVendidas>
+			<descripcion>
+				Uno de los mejores ordenadores de 8 bits, con un catálogo de juegos 
+				muy extenso. Tenía 64 kilobytes de RAM y el mejor chip de sonido 
+				de la época, por lo que muchos músicos hicieron uso de él 
+				para componer. Usaba un scroll de pantalla muy suave que daba a 
+				los juegos un toque especial de realismo. Salieron juegos como 
+				<juego>Test Drive</juego>, <juego>Last Ninja</juego>, 
+				<juego>Shadow of the Beast</juego>, <juego>Maniac Mansion</juego>, 
+				o la serie <juego>Ultima</juego>. 
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="MSX" tipo="computadora" soporteJuego="cartucho casete">
+			<nombre>MSX</nombre>
+			<compania>Kazuhiko Nishi. Más tarde licenciado por Sony</compania>
+			<generacion>Segunda</generacion>
+			<lanzamiento>1983</lanzamiento>
+			<cpu>Zilog Z80</cpu>
+			
+			<unidadesVendidas>4000000</unidadesVendidas>	
+			<descripcion>
+				Ordenador doméstico que inició sagas tan populares que hoy en 
+				día conocemos cómo <juego>Bomberman</juego>, <juego>Metal Gear</juego>,
+				<juego>Castlevania</juego>, <juego>Dragon Quest</juego>, 
+				<juego>Final Fantasy</juego>, etc. Su Microprocesador Z80 fue muy 
+				utilizado en los ordenadores domésticos de la época tales como 
+				<consola>Spectrum</consola>, <consola>Amstrad CPC</consola> o 
+				<consola>Commodore 128</consola> y actuó como procesador secundario 
+				en las <consola>Game Boy</consola>.
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="ACPC" tipo="computadora" soporteJuego="cartucho casete">
+			<nombre>Amstrad CPC</nombre>
+			<compania>Amstrad</compania>
+			<generacion>Segunda</generacion>
+			<lanzamiento>1984</lanzamiento>
+			<cpu>Zilog Z80A @ 4 MHz</cpu>
+			
+			<unidadesVendidas>3000000</unidadesVendidas>	
+			<descripcion>
+				Serie de ordenadores personales de 8 bits diseñados para ser un 
+				competidor directo al <consola>Commodore 64</consola> y al 
+				<consola>Sinclair ZX Spectrum</consola>, y así fue, tuvo 
+				mucho éxito. Lo que más distingue a la máquina de Amstrad es 
+				la consola (teclado) negro mate con las esquinas agudas y una 
+				forma rectangular. También era posible utilizar el monitor como
+				pantalla de televisión con un convertidor de TV opcional.
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="NES" tipo="sobremesa" soporteJuego="cartucho">
+			<nombre>Nintendo Entertaiment System</nombre>
+			<compania>Nintendo</compania>
+			<generacion>Tercera</generacion>
+			<lanzamiento>1985</lanzamiento>
+			<cpu>Unidad Ricoh 2A03 de 8 bits (procesador MOS 6502)</cpu>
+			<juegoMasVendido>Super Mario Bros</juegoMasVendido>
+			<portada>3.- SuperMarioBros.jpg</portada>
+			<unidadesVendidas>61910000</unidadesVendidas>	
+			<descripcion>
+				La primera consola de Nintendo y la que supuso un auténtico boom 
+				en el mundo de los videojuegos, vendiendo aproximadamente 60 millones
+				de unidades. Definió cómo tenían que ser los juegos y cómo jugarlos, 
+				gracias a su cruceta direccional inventada por Gunpei Yokoi, 
+				que sustituiría el ya antiguo joystick de los hogares. 
+				Gracias a su éxito en ventas: <juego>Super Mario Bros</juego>, 
+				Nintendo puso de moda el género de los juegos de plataformas.
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="SMS" tipo="sobremesa" soporteJuego="cartucho">
+			<nombre>SEGA Master System</nombre>
+			<compania>SEGA</compania>
+			<generacion>Tercera</generacion>
+			<lanzamiento>1986</lanzamiento>
+			<cpu>Zilog Z80A a 3,5 MHz</cpu>
+			<gpu>Texas Instruments TMS9918</gpu>
+			<juegoMasVendido>Alex Kidd in Miracle World</juegoMasVendido>
+			<portada>4.- AlexKidd.jpg</portada>
+			<unidadesVendidas>13000000</unidadesVendidas>	
+			<descripcion>
+				Sega rediseñó su <consola>SG-1000 Mark III</consola> y le cambió 
+				el nombre a <consola>Master System</consola>. Más adelante la 
+				volvieron a rediseñar, haciéndola más compacta, y se dió a conocer
+				como <consola>Master System II</consola>, quizás el rediseño más 
+				famoso en el mundo de los videojuegos. Venía con un juego 
+				preinstalado, <juego>Alex Kidd in Miracle World</juego>, que fue
+				muy popular debido a que muchas tiendas lo ponían en un televisor 
+				en sus escaparates. Fue la principal competidora de la <consola>NES</consola>
+				de Nintendo, la cual tenía un catálogo mucho más amplio, pero era 
+				más pobre gráficamente.
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="SMD" tipo="sobremesa" soporteJuego="cartucho">
+			<nombre>SEGA Mega Drive</nombre>
+			<compania>SEGA</compania>
+			<generacion>Cuarta</generacion>
+			<lanzamiento>1988</lanzamiento>
+			<cpu>Motorola 68000 @ 7.61 MHz/Zilog Z80 @ 3.58 MHz</cpu>
+			<juegoMasVendido>Sonic the Hedgehog</juegoMasVendido>
+			<portada>5.- SonicMD.png</portada>
+			<unidadesVendidas>30750000</unidadesVendidas>	
+			<descripcion>
+				Incorporó una CPU de 32 bits montada sobre un bus de datos de 16, 
+				por lo que su arquitectura fue finalmente de 16 bits. No tuvo 
+				demasiado éxito en Japón, pero en América y Europa fue la líder 
+				indiscutible, incluso estuvo por encima de la 
+				<consola>Super Nintendo</consola> (su principal competidora) 
+				en estos continentes, a parte de tener un catálogo de juegos mucho 
+				más extenso y variado. El gran público no le prestó demasiada 
+				atención hasta que apareció <juego>Sonic the Hedgehog</juego>. 
+				Su principal atractivo eran sus juegos directamente convertidos 
+				desde las recreativas.
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="NGB" tipo="portatil" soporteJuego="cartucho">
+			<nombre>Game Boy</nombre>
+			<compania>Nintendo</compania>
+			<generacion>Cuarta</generacion>
+			<lanzamiento>1989</lanzamiento>
+			<cpu>Sharp LR35902 de 8 bits a 4.19 MHz</cpu>
+			<juegoMasVendido>Tetris</juegoMasVendido>
+			<portada>6.- Tetris.png</portada>
+			<unidadesVendidas>87660000</unidadesVendidas>
+			<descripcion>
+				Serie de consolas portatiles alimentadas con pilas que recibió 
+				un grandísimo apoyo. En su primer año vendió relativamente 
+				poco, sin embargo, con la llegada del fenómeno <juego>Tetris</juego>
+				las ventas se dispararon. Lo negativo de ella fue la duración de 
+				las pilas y su gran tamaño que mejoraría con la llegada de su sucesora.
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="NGEO" tipo="sobremesa" soporteJuego="cartucho/CD-ROM">
+			<nombre>NEO GEO</nombre>
+			<compania>SNK</compania>
+			<generacion>Cuarta</generacion>
+			<lanzamiento>1990</lanzamiento>
+			<cpu>Motorola 68000 16-bit 12 MHz + ZiLOG Z-80A 8 bits 4 MHz</cpu>
+			<gpu>Chips de Procesamiento Gráfico personalizado</gpu>
+			<juegoMasVendido>The King of Fighters</juegoMasVendido>
+			<portada>7.- TheKingofFighters94.jpg</portada>
+			<unidadesVendidas>1000000</unidadesVendidas>	
+			<descripcion>
+				También llamada "Sistema de entretenimiento avanzado", era la 
+				consola más deseada de los 90. Tenía un precio prohibitivo, 
+				así como todos sus juegos. Era la misma máquina que las 
+				recreativas de SNK, por lo que tenía exactamente los mismos juegos,
+				de ahí el deseo de todos por jugarla. Juegos populares como 
+				<juego>Fatal Fury</juego>, <juego>Samurai Shodown</juego> y 
+				principalmente <juego>Metal Slug</juego> y <juego>King Of Fighters</juego>
+				se publicaron y formaron parte de este sistema
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="SGG" tipo="portatil" soporteJuego="cartucho">
+			<nombre>Game Gear</nombre>
+			<compania>SEGA</compania>
+			<generacion>Cuarta</generacion>
+			<lanzamiento>1991</lanzamiento>
+			<cpu>Zilog Z80 (8 bits)</cpu>
+			<juegoMasVendido>Sonic the Hedgehog</juegoMasVendido>
+			<portada>8.- SonicGG.png</portada>
+			<unidadesVendidas>10600000</unidadesVendidas>
+			<descripcion>
+				Videoconsola portatil creada en respuesta a la <consola>Game Boy</consola>.
+				Es la tercera portátil con pantalla en color de la historia. 
+				La <consola>Game Gear</consola> fue básicamente una <consola>Master System</consola>
+				portátil con menor resolución pero que permitía una paleta de 
+				colores mayor, y potencialmente mejores gráficos. Además podía 
+				producir sonido estéreo, aunque muy pocos juegos fueron programados 
+				con tal innovación. Uno de los juegos más vendidos fue 
+				<juego>Sonic the Hedgehog</juego>.
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="SNES" tipo="sobremesa" soporteJuego="cartucho">
+			<nombre>Super Nintendo Entertainment System</nombre>
+			<compania>Nintendo</compania>
+			<generacion>Cuarta</generacion>
+			<lanzamiento>1991</lanzamiento>
+			<cpu>Ricoh 5A22 16 bits a 3,6 Mhz</cpu>
+			<juegoMasVendido>Super Mario World</juegoMasVendido>
+			<portada>9.- SuperMarioWorld.jpg</portada>
+			<unidadesVendidas>49100000</unidadesVendidas>
+			<descripcion>
+				La consola que rivalizó directamente con la <consola>Mega Drive</consola>. 
+				Trajo juegos de muchísima calidad y originalidad, y cuanto más 
+				tiempo pasaba, más impresionaron. Su CPU no era la más rápida, 
+				pero sus chips de gráficos y sonido eclipsaron ese inconveniente. 
+				Fue un éxito en todo el mundo, teniendo juegos de la talla de 
+				<juego>Super Mario World</juego>, <juego>Street Fighter II</juego>, o
+				<juego>Donkey Kong Country</juego>. 
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="CD32" tipo="sobremesa" soporteJuego="CD-ROM">
+			<nombre>Amiga CD32</nombre>
+			<compania>Commodore International</compania>
+			<generacion>Quinta</generacion>
+			<lanzamiento>1993</lanzamiento>
+			<cpu>Motorola MC68EC020 14.18 MHz</cpu>
+			<juegoMasVendido>Alien Breed</juegoMasVendido>
+			<portada>10.- AlienBreed.jpg</portada>
+			<unidadesVendidas>100000</unidadesVendidas>
+			<descripcion>
+				Fue la primera videoconsola de 32 bits con CD-ROM en Europa, 
+				pero la empresa fue a bancarrota dando lugar a que fuese descatalogada. 
+				La <consola>CD32</consola> era básicamente un <consola>Commodore Amiga 1200</consola> 
+				sin disquetera ni teclado, teniendo en su lugar, un lector de CD. 
+				Aunque tuvo juegos importantes como <juego>Alien Breed</juego>, quedó rápidamente 
+				obsoleta, y fue la última de las máquinas que estaban basadas en la 
+				tecnología Amiga. 
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="SAT" tipo="sobremesa" soporteJuego="CD-ROM">
+			<nombre>Saturn</nombre>
+			<compania>SEGA</compania>
+			<generacion>Quinta</generacion>
+			<lanzamiento>1994</lanzamiento>
+			<cpu>2× Hitachi SH-2 @ 28.6 MHz</cpu>
+			<juegoMasVendido>Virtua Fighter 2</juegoMasVendido>
+			<portada>11.- VirtuaFigther2.jpg</portada>
+			<unidadesVendidas>17000000</unidadesVendidas>	
+			<descripcion>
+				Fue inicialmente diseñada para albergar una 
+				única CPU, pero en las últimas fases del diseño se añadió una 
+				segunda, haciendo que las piezas no trabajaran de una forma 
+				natural entre sí, y provocando que programar juegos para ella 
+				fuera toda una odisea. La sombra de la <consola>PlayStation</consola> 
+				de Sony hizo que Sega lanzara su consola antes de tiempo, dando 
+				la situación de una máquina sin apenas juegos. 
+				Finalmente salió PlayStation al mercado y superó rápidamente en 
+				ventas a la <consola>Saturn</consola> en Occidente, dejándola fuera del 
+				mercado. Destacaron juegos como <juego>Virtua Fighter 2</juego>, 
+				<juego>Sega Rally</juego> o <juego>Panzer Dragoon Saga</juego>.
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="PSX" tipo="sobremesa" soporteJuego="CD-ROM">
+			<nombre>PlayStation</nombre>
+			<compania>Sony</compania>
+			<generacion>Quinta</generacion>
+			<lanzamiento>1994</lanzamiento>
+			<cpu>R3000A a 33.8688 MHz de 32 bits</cpu>
+			<juegoMasVendido>Gran Turismo</juegoMasVendido>
+			<portada>12.- GranTurismo.jpg</portada>
+			<unidadesVendidas>104250000</unidadesVendidas>
+			<descripcion>
+				Se trató de una máquina potente, que supo usar muy bien el soporte en CD,
+				y se basó en el proyecto conjunto con Nintendo para dotar a la 
+				<consola>Super Nintendo</consola> de soporte de CD. Nada más salir 
+				al mercado, debido a la expectación que creó previamente, superó en 
+				ventas a la competencia y acaparó un sinfín de juegos muy variados. 
+				Caben destacar grandes juegos como <juego>Crash Bandicoot</juego>, 
+				<juego>Medievil</juego>, <juego>Metal Gear Solid</juego>, 
+				<juego>Tomb Raider</juego>, <juego>Gran Turismo</juego>, etc.
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="N64" tipo="sobremesa" soporteJuego="cartucho">
+			<nombre>Nintendo 64</nombre>
+			<compania>Nintendo</compania>
+			<generacion>Quinta</generacion>
+			<lanzamiento>1996</lanzamiento>
+			<cpu>NEC VR4300 64-bit a 93.7 MHz</cpu>
+			<juegoMasVendido>Super Mario 64</juegoMasVendido>
+			<portada>13.- SuperMario64.jpg</portada>
+			<unidadesVendidas>32930000</unidadesVendidas>	
+			<descripcion>
+				Nintendo tenía temor a la piratería, por lo que optó por seguir
+				usando los antiguos cartuchos. El resultado fue muy malo, ya que 
+				el cartucho era más costoso de producir que el CD, a pesar de ser
+				mucho más rápido (que era la justificación de Nintendo) y de menor 
+				capacidad. Además, su chip gráfico estaba bastante limitado en 
+				cuanto al texturizado en 3D, hecho que impedía generar gráficos 
+				realistas. Todo resultó en la pérdida de la mayoría de third-parties, 
+				incluso aquellas comprometidas tradicionalmente con Nintendo.
+				Al final acabó teniendo pocos juegos, aunque de gran calidad, 
+				la mayoría del propio fabricante y de sus departamentos externos. 
+				Entre ellos se podría destacar <juego>Super Mario 64</juego>, 
+				<juego>The Legend of Zelda: Ocarina of Time</juego> o <juego>Banjo-Kazooie</juego>. 
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="GBC" tipo="portatil" soporteJuego="cartucho">
+			<nombre>Game Boy Color</nombre>
+			<compania>Nintendo</compania>
+			<generacion>Quinta</generacion>
+			<lanzamiento>1998</lanzamiento>
+			<cpu>Sharp LR35902 @ 4.19/8.38 MHz</cpu>
+			<juegoMasVendido>Pokémon Oro y Plata</juegoMasVendido>
+			<portada>14.- PokemonEdiciónOro.jpg</portada>
+			<unidadesVendidas>30000000</unidadesVendidas>	
+			<descripcion>
+				Una particularidad de esta consola es ser la primera compatible 
+				con su antecesora, así que los antiguos juegos en cartucho de la 
+				<consola>Game Boy</consola> clásica podían correr en esta nueva 
+				<consola>Game Boy</consola> e incluirles color. También, se 
+				mejoró su hardware, con mayor velocidad y resolución en los 
+				gráficos, pero era inferior de todas formas a sus contemporáneas 
+				como <consola>Neo Geo Pocket</consola> o <consola>WonderSwan</consola>, 
+				como mucho, la mejora técnica podría equipararla con <consola>Game Gear</consola>. 
+				La <consola>Game Boy Color</consola> tiene un catálogo de 230 juegos diferentes que 
+				salieron desde 1998 a 2002.
+			</descripcion>
+		</plataforma>
+		
+		<plataforma codigo="SDC" tipo="sobremesa" soporteJuego="GD-ROM">
+			<nombre>Dreamcast</nombre>
+			<compania>SEGA</compania>
+			<generacion>Sexta</generacion>
+			<lanzamiento>1999</lanzamiento>
+			<cpu>32 bit Hitachi SH4 RISC 200 Mhz</cpu>
+			<gpu>128 bit PowerVR2DC 100 Mhz</gpu>
+			<juegoMasVendido>Sonic Adventure</juegoMasVendido>
+			<portada>15.- SonicAdventure.jpg</portada>
+			<unidadesVendidas>10600000</unidadesVendidas>
+			<descripcion>
+				Es la primera videoconsola de sexta generación, última anterior a 
+				los 2000 y también última plataforma de Sega, pensada para 
+				recuperar el mercado perdido ante <consola>PlayStation</consola> 
+				de Sony. Pero se detuvo su producción debido a las perdidas 
+				económicas de muchos de sus proyectos. Sus principales 
+				características son el lector óptico GD-ROM y su procesador 
+				Hitachi, siendo el sistema el primero en proveer un modem para 
+				jugar online. Los Juegos más relevantes que conoció fueron 
+				<juego>Soul Calibur</juego>, <juego>Sonic Adventure</juego>, 
+				<juego>Power Stone</juego> y <juego>Hydro Thunder</juego>.
+			</descripcion>
+		</plataforma>
+		
+	</plataformas>
+	
+</jugones>
